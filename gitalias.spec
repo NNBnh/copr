@@ -13,10 +13,11 @@ status, command aliases such as `chart` and `churn`,lookup aliases such as
 `whois` and `whatis`, workflow aliases such as `topic-begin` for feature branch
 development, and more.
 
-%prep	
+%prep
 %autosetup
-	
+
 %build
+echo Skip
 
 %install
 %{__install} -D %{_builddir}/gitalias.txt -t %{buildroot}%{_datadir}/gitalias.txt
