@@ -6,7 +6,7 @@ Version: 1.0.0
 Release: 1%{?dist}
 License: Unlicense
 URL: https://github.com/GitAlias/gitalias
-Source0: https://github.com/GitAlias/gitalias/archive/refs/heads/main.zip
+Source0: https://github.com/GitAlias/gitalias/archive/refs/heads/main.tar.gz
 BuildArch: noarch
 
 %description
