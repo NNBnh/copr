@@ -15,6 +15,8 @@ development, and more.
 
 %prep	
 %autosetup
+	
+%build
 
 %install
 %{__install} -D %{_builddir}/gitalias.txt -t %{buildroot}%{_datadir}/gitalias.txt
