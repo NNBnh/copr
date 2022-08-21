@@ -2,6 +2,9 @@
 
 Name: gitalias
 Summary: Git alias commands for faster easier version control.
+Version: 1.0.0
+Release: 1%{?dist}
+License: Unlicense
 URL: https://github.com/GitAlias/gitalias
 Source0: https://raw.githubusercontent.com/GitAlias/gitalias/main/gitalias.txt
 BuildArch: noarch
@@ -15,9 +18,6 @@ development, and more.
 
 %prep
 %autosetup
-
-%build
-echo Skip
 
 %install
 %{__install} -D %{_builddir}/gitalias.txt -t %{buildroot}%{_datadir}/gitalias.txt
